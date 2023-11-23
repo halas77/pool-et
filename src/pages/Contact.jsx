@@ -1,10 +1,8 @@
-"use client";
 import { FaFacebook, FaTiktok, FaInstagram, FaTelegram } from "react-icons/fa";
 import { TiLocation } from "react-icons/ti";
 import { MdEmail, MdCall, MdShare } from "react-icons/md";
 import { motion } from "framer-motion";
 import Form from './Form'
-
 
 const Contact = () => {
   return (
@@ -41,7 +39,7 @@ const Contact = () => {
             <div className="bg-sky-950 rounded-lg px-4 flex items-center h-28">
               <div className="bg-sky-900 p-3 rounded-full">
                 <i className="text-slate-50">
-                  <MdEmail size={28} />{" "}
+                  <MdEmail size={28} />
                 </i>
               </div>
               <div className="px-5">
@@ -49,7 +47,7 @@ const Contact = () => {
                   Email Us
                 </h2>
                 <p className="font-sans text-gray-300 text-sm">
-                  {" "}
+                  
                   poolitsolutions@gmail.com
                 </p>
               </div>
